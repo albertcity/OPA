@@ -1,4 +1,4 @@
-This is a public implementation of the paper "Online Prototype Alignment for Few-shot Policy Transfer" (OPA).
+This is a public implementation of the paper "Online Prototype Alignment for Few-shot Policy Transfer" (OPA), which is accepted at ICML 2023.
 
 The main implementation of PPO is based on the `tianshou` library, which is also included in this repository. However, the logger is borrowed form the  `stable-baselines3` and is not included. You should install  `stable-baselines3` or disable the logger first.
 
