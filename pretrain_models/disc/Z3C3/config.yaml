@@ -1,0 +1,16 @@
+num_cat: 12
+num_act: 9
+hidden_dim: 32
+info_spec: {}
+cat_to_expl: 6
+num_unknown: 3
+device: cuda
+logdir: /lustre/S/yiqi/work/ILP/object/ts_ppo/pretrained_disc_all/Z3C3
+loaddir: train_disc
+data_version: 0
+data_version_end: 8
+epoch: 6
+data_dir: /lustre/S/yiqi/work/ILP/object/ts_ppo/search_on_ppo_task_z3c3/spgsZ3C3/s5859096
+eval_data_dir: ''
+disc_type: RefTrajEmbed
+pred_multi_layer: true

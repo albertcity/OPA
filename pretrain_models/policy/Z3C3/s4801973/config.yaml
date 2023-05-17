@@ -1,0 +1,53 @@
+num_cat: 12
+num_act: 9
+env_kwargs:
+  symbolic: false
+  max_len: 30
+  clear_reward: 0
+  zombie_movable: true
+  avoid_agent: true
+  fire_range: 3
+  spawn_args: Z3C3
+hidden_dim: 32
+info_spec: {}
+cat_to_expl: 6
+device: cuda
+logdir: /lustre/S/yiqi/work/ILP/object/ts_ppo/search_on_ppo_task_z3c3/spgsZ3C3/s4801973
+patch_shape:
+- 8
+- 8
+- 3
+aim_log: false
+aim_tags: []
+n_step: 1
+thres: 0.3
+objto: 19
+max_num: 256
+exp_only: false
+load_task_path: ''
+task_only: true
+lr: 0.0003
+num_envs: 16
+epoch: 500
+step_per_epoch: 51200
+repeat_per_collect: 3
+step_per_collect: 4096
+batch_size: 256
+buffer_size: 8192
+ppo_kwargs:
+  discount_factor: 0.99
+  max_grad_norm: 0.5
+  eps_clip: 0.2
+  vf_coef: 0.5
+  ent_coef: 0.01
+  gae_lambda: 0.95
+  deterministic_eval: false
+  advantage_normalization: 1
+seed: 4801973
+view_type: rn
+eval_only: false
+eval_on_test: false
+save_hist: 1
+loaddir: ./max/s3399937/all_model.pth
+use_icm: false
+sinfo_v2: 1
