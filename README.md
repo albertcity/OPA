@@ -21,7 +21,7 @@ python ppo_expl_main.py env_kwargs.spawn_args=Z3C3 load_task_pol_dir=log/policy/
 ```
 
 For simplicity, we also provide some pretrained models in the `pretrain_model` folder, including:
-- `pretrain_models/percept`: the novelty detection model $\Psi_{unseen}\& f_{ND}$ for Hunter.
+- `pretrain_models/percept`: the novelty detection model $\Psi_{unseen},f_{ND}$ for Hunter.
 - `pretrain_models/policy/Z3C3/s4801973`: $\pi_{task}$ for Hunter-Z3C3
 - `pretrain_models/disc/Z3C3`: $q_\theta$ for Hunter-Z3C3
 
